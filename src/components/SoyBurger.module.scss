@@ -1,0 +1,26 @@
+.container {
+    z-index: 0;
+    position: fixed;
+    right: 0;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 2px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background-color: rgb(177, 227, 253);
+    height: 100%;
+    width: 30%;
+    border-left: 3px double #169b6c;
+
+    ul {
+        margin-top: 5rem;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        li {
+            padding: .5rem 0rem;
+            a {
+                color: #005a9f;
+                font-size: 1.1rem;
+                text-decoration: none;
+            }
+        }
+    }
+}
